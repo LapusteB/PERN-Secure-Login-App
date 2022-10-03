@@ -1,0 +1,11 @@
+CORS
+https://www.tenable.com/blog/understanding-cross-origin-resource-sharing-vulnerabilities
+
+Instead using cookies this app uses local Storage and session storage to prevent XSS attacks (Cross-Site Scripting)
+Will not be using {useState}
+Instead will be using setToken and getToken
+
+https://www.freecodecamp.org/news/introduction-to-react-hooks/
+https://reactjs.org/docs/legacy-event-pooling.html
+
+

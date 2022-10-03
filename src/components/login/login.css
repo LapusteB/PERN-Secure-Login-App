@@ -1,0 +1,13 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    text-align: left;
+}
+
+.login-color {
+    color:crimson;
+}
