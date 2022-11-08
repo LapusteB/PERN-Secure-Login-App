@@ -2,6 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color:green;
+}
+.input-field{
+    background: grey;
+    border-radius:0.5ex;
+    outline: none;
+    color: rgb(249, 249, 249);
+    font-size:x-large;
 }
 
 .button {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-
+import myGif from './bg.mp4';
+import "./video.css";
 
 import Create from '../create/create';
 import "./login.css";
@@ -39,15 +40,19 @@ export default function Login({setToken}) {
     
     return(
       <div className='login-wrapper'>
-        <h1>Login to Secure App</h1>
+      
+        <h1>Login</h1>
+        <video autoPlay loop muted id='video'>
+        <source src={myGif} type='video/mp4'/>
+      </video>
         <form onSubmit={handleSubmit}>
             <label>
             <p>Username</p>
-            <input type="text" onChange={e => setUsername(e.target.value)}/>
+            <input className='input-field' type="text" onChange={e => setUsername(e.target.value)}/>
             </label>
             <label>
             <p>Password</p>
-            <input type="password" onChange={e => setPassword(e.target.value)}/>
+            <input className='input-field' type="password" onChange={e => setPassword(e.target.value)}/>
             </label>
             <div className='button'>
             <button type="submit">Submit</button>

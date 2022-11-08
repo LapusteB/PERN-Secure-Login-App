@@ -49,11 +49,11 @@ const handleSubmit = async e => {
         <form onSubmit={handleSubmit}>
             <label>
             <p>Create a Username</p>
-            <input type="text" onChange={e => setUsername(e.target.value)}/>
+            <input className='input-field' type="text" onChange={e => setUsername(e.target.value)}/>
             </label>
             <label>
             <p>Create a Password</p>
-            <input type="password" onChange={e => setPassword(e.target.value)}/>
+            <input className='input-field' type="password" onChange={e => setPassword(e.target.value)}/>
             </label>
             <div className='button'>
             <button type="submit">Create</button>
