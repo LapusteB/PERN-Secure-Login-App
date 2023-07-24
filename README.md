@@ -1,4 +1,4 @@
-# This is a Secure Full Stack App and requires you to have your own .ENV file I have made my own for an example
+# This is a Secure Full Stack App using the PostgreSQL, Express, React, Node Stack
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
